@@ -1,0 +1,62 @@
+﻿body {
+    margin-left: 15px;
+}
+
+h3 {
+    text-align: left;
+    font-size: x-large;
+}
+h2 {
+    margin: 10px;
+    text-indent: 20px;
+}
+
+h4 {
+    margin-left: 15px;
+}
+
+
+
+table, th, td {
+    border: 1px solid #322f4f;
+    width: 50%;
+    align-content: center;
+}
+
+li{
+    margin: 10px;
+}
+
+th, td {
+    padding: 5px
+}
+
+#grad {
+    background: linear-gradient(to bottom, #D9F0FF, #A3D5FF, #83C9F4, #6F73D2, #7681B3 )no-repeat center fixed;
+    background-size: inherit;
+    margin: 40px;
+    color: black;
+    font-family: "Palatino Linotype"
+     
+}
+
+.smallhead {
+    margin-bottom: 0;
+}
+
+/*#507BE8, #0D0221*/
+a:link {
+    color: #2A245E;
+}
+
+a:visited {
+    color: #C97220;
+}
+
+a:hover {
+    color: #c44052;
+}
+
+a:active {
+    color: #7D2935;
+}

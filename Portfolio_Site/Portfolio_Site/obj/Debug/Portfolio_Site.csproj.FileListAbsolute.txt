@@ -1,0 +1,9 @@
+C:\Users\Cyberadmin\Desktop\Portfolio_Site\Portfolio_Site\bin\Portfolio_Site.dll.config
+C:\Users\Cyberadmin\Desktop\Portfolio_Site\Portfolio_Site\bin\Portfolio_Site.dll
+C:\Users\Cyberadmin\Desktop\Portfolio_Site\Portfolio_Site\bin\Portfolio_Site.pdb
+C:\Users\Cyberadmin\Desktop\Portfolio_Site\Portfolio_Site\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Cyberadmin\Desktop\Portfolio_Site\Portfolio_Site\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Cyberadmin\Desktop\Portfolio_Site\Portfolio_Site\obj\Debug\Portfolio_Site.csprojResolveAssemblyReference.cache
+C:\Users\Cyberadmin\Desktop\Portfolio_Site\Portfolio_Site\obj\Debug\Portfolio_Site.csproj.CoreCompileInputs.cache
+C:\Users\Cyberadmin\Desktop\Portfolio_Site\Portfolio_Site\obj\Debug\Portfolio_Site.dll
+C:\Users\Cyberadmin\Desktop\Portfolio_Site\Portfolio_Site\obj\Debug\Portfolio_Site.pdb
