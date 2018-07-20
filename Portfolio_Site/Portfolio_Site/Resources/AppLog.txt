@@ -1,0 +1,154 @@
+7/19/2018 7:32:14 PM: Application started.
+7/19/2018 7:32:14 PM: Application requested.
+7/19/2018 7:32:14 PM: Application requested.
+7/19/2018 7:32:15 PM: Session started. Current number of users: 1.
+7/19/2018 7:32:21 PM: Application requested.
+7/19/2018 7:32:22 PM: Application requested.
+7/19/2018 7:32:31 PM: Application requested.
+7/19/2018 7:32:40 PM: Application started.
+7/19/2018 7:32:40 PM: Application requested.
+7/19/2018 7:32:40 PM: Session started. Current number of users: 1.
+7/19/2018 7:32:45 PM: Application requested.
+7/19/2018 7:32:45 PM: Application requested.
+7/19/2018 7:32:45 PM: Application requested.
+7/19/2018 7:32:45 PM: Application requested.
+7/19/2018 7:32:46 PM: Application requested.
+7/19/2018 7:32:46 PM: Application requested.
+7/19/2018 7:32:47 PM: Application requested.
+7/19/2018 7:32:47 PM: Application requested.
+7/19/2018 7:32:47 PM: Application requested.
+7/19/2018 7:32:47 PM: Application requested.
+7/19/2018 7:32:47 PM: Application requested.
+7/19/2018 7:32:48 PM: Application requested.
+7/19/2018 7:32:48 PM: Application requested.
+7/19/2018 7:32:48 PM: Application requested.
+7/19/2018 7:32:48 PM: Application requested.
+7/19/2018 7:32:52 PM: Application requested.
+7/19/2018 7:32:53 PM: Application requested.
+7/19/2018 7:32:53 PM: Application requested.
+7/19/2018 7:32:53 PM: Application requested.
+7/19/2018 7:32:53 PM: Application requested.
+7/19/2018 7:32:53 PM: Application requested.
+7/19/2018 7:32:54 PM: Application requested.
+7/19/2018 7:32:54 PM: Application requested.
+7/19/2018 7:32:54 PM: Application requested.
+7/19/2018 7:32:54 PM: Application requested.
+7/19/2018 7:32:55 PM: Application requested.
+7/19/2018 7:32:55 PM: Application requested.
+7/19/2018 7:32:55 PM: Application requested.
+7/19/2018 7:32:55 PM: Application requested.
+7/19/2018 7:32:55 PM: Application requested.
+7/19/2018 7:32:56 PM: Application requested.
+7/19/2018 7:32:56 PM: Application requested.
+7/19/2018 7:32:56 PM: Application requested.
+7/19/2018 7:32:56 PM: Application requested.
+7/19/2018 7:32:57 PM: Application requested.
+7/19/2018 7:32:57 PM: Application requested.
+7/19/2018 7:32:57 PM: Application requested.
+7/19/2018 7:32:57 PM: Application requested.
+7/19/2018 7:32:57 PM: Application requested.
+7/19/2018 7:32:58 PM: Application requested.
+7/19/2018 7:32:58 PM: Application requested.
+7/19/2018 7:33:01 PM: Application requested.
+7/19/2018 7:33:02 PM: Application requested.
+7/19/2018 7:33:02 PM: Application requested.
+7/19/2018 7:33:03 PM: Application requested.
+7/19/2018 7:33:07 PM: Application requested.
+7/19/2018 7:33:07 PM: Application requested.
+7/19/2018 7:33:12 PM: Application requested.
+7/19/2018 7:33:17 PM: Application requested.
+7/19/2018 7:33:18 PM: Application requested.
+7/19/2018 7:33:19 PM: Application requested.
+7/19/2018 7:33:20 PM: Application requested.
+7/19/2018 7:33:20 PM: Application requested.
+7/19/2018 7:33:21 PM: Application requested.
+7/19/2018 7:33:21 PM: Application requested.
+7/19/2018 7:33:22 PM: Application requested.
+7/19/2018 7:33:22 PM: Application requested.
+7/19/2018 7:33:22 PM: Application requested.
+7/19/2018 7:33:22 PM: Application requested.
+7/19/2018 7:33:22 PM: Application requested.
+7/19/2018 7:33:23 PM: Application requested.
+7/19/2018 7:33:23 PM: Application requested.
+7/19/2018 7:33:28 PM: Application requested.
+7/19/2018 7:33:30 PM: Application requested.
+7/19/2018 7:33:51 PM: Application requested.
+7/19/2018 7:33:55 PM: Application requested.
+7/19/2018 7:34:17 PM: Application requested.
+7/19/2018 7:34:20 PM: Application requested.
+7/19/2018 7:34:21 PM: Application requested.
+7/19/2018 7:34:22 PM: Application requested.
+7/19/2018 7:34:23 PM: Application requested.
+7/19/2018 7:34:24 PM: Application requested.
+7/19/2018 7:34:25 PM: Application requested.
+7/19/2018 7:34:25 PM: Application requested.
+7/19/2018 7:34:26 PM: Application requested.
+7/19/2018 7:34:27 PM: Application requested.
+7/19/2018 7:34:54 PM: Application requested.
+7/19/2018 7:35:00 PM: Application requested.
+7/19/2018 7:35:01 PM: Application requested.
+7/19/2018 7:35:01 PM: Application requested.
+7/19/2018 7:35:02 PM: Application requested.
+7/19/2018 7:35:02 PM: Application requested.
+7/19/2018 7:35:02 PM: Application requested.
+7/19/2018 7:35:03 PM: Application requested.
+7/19/2018 7:35:03 PM: Application requested.
+7/19/2018 7:35:03 PM: Application requested.
+7/19/2018 7:35:04 PM: Application requested.
+7/19/2018 7:35:04 PM: Application requested.
+7/19/2018 7:35:05 PM: Application requested.
+7/19/2018 7:35:05 PM: Application requested.
+7/19/2018 8:01:27 PM: Application started.
+7/19/2018 8:02:04 PM: Application requested.
+7/19/2018 8:02:10 PM: Application requested.
+7/19/2018 8:02:14 PM: Session started. Current number of users: 1.
+7/19/2018 8:02:41 PM: Application started.
+7/19/2018 8:02:47 PM: Application started.
+7/19/2018 8:02:50 PM: Application requested.
+7/19/2018 8:02:50 PM: Session started. Current number of users: 1.
+7/19/2018 8:06:21 PM: Application started.
+7/19/2018 8:06:21 PM: Application requested.
+7/19/2018 8:06:21 PM: Application requested.
+7/19/2018 8:06:22 PM: Session started. Current number of users: 1.
+7/19/2018 8:06:25 PM: Application requested.
+7/19/2018 8:06:27 PM: Application requested.
+7/19/2018 8:06:29 PM: Application requested.
+7/19/2018 8:06:37 PM: Application started.
+7/19/2018 8:06:37 PM: Application requested.
+7/19/2018 8:06:37 PM: Session started. Current number of users: 1.
+7/19/2018 8:06:46 PM: Application requested.
+7/19/2018 8:06:53 PM: Application requested.
+7/19/2018 8:06:57 PM: Application requested.
+7/19/2018 8:06:59 PM: Application requested.
+7/19/2018 8:12:07 PM: Application started.
+7/19/2018 8:12:08 PM: Session started. Current number of users: 1.
+7/19/2018 8:37:55 PM: Application started.
+7/19/2018 8:37:59 PM: Application started.
+7/19/2018 8:38:00 PM: Session started. Current number of users: 1.
+7/19/2018 8:40:02 PM: Application requested.
+7/19/2018 9:26:48 PM: Session started. Current number of users: 0.
+7/19/2018 9:26:59 PM: Application requested.
+7/19/2018 9:27:20 PM: Application started.
+7/19/2018 9:27:21 PM: Session started. Current number of users: 1.
+7/19/2018 9:27:28 PM: Application started.
+7/19/2018 9:27:28 PM: Session started. Current number of users: 1.
+7/19/2018 9:32:41 PM: Application started.
+7/19/2018 9:32:42 PM: Session started. Current number of users: 1.
+7/19/2018 9:33:25 PM: User added 
+7/19/2018 9:34:08 PM: Application started.
+7/19/2018 9:34:09 PM: Session started. Current number of users: 1.
+7/19/2018 9:34:14 PM: User added 
+7/19/2018 9:34:36 PM: User added 
+7/19/2018 9:36:16 PM: Application started.
+7/19/2018 9:36:17 PM: Session started. Current number of users: 1.
+7/19/2018 9:36:22 PM: User added 
+7/19/2018 9:41:24 PM: Application started.
+7/19/2018 9:41:25 PM: Session started. Current number of users: 1.
+7/19/2018 9:41:31 PM: Application started.
+7/19/2018 9:41:31 PM: Session started. Current number of users: 1.
+7/19/2018 9:45:48 PM: Application started.
+7/19/2018 9:45:49 PM: Session started. Current number of users: 1.
+7/19/2018 9:45:54 PM: User added two numbers together.
+7/19/2018 9:45:57 PM: User multiplied two numbers together.
+7/19/2018 9:45:59 PM: User divided one number by another.
+7/19/2018 9:46:00 PM: User subtracted one number from another.
