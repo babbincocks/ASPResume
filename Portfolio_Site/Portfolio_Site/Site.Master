@@ -18,7 +18,9 @@
 <h4> Phone: 352-361-4177 </h4> <h4>  E-mail: <a href="mailto:zabbybab@gmail.com" target= "_blank" > zabbybab@gmail.com </a> </h4>
 
 <br/>
+    <asp:LinkButton ID="btnLogin" runat="server">Login</asp:LinkButton>
     <form id="form1" runat="server">
+        &nbsp;<asp:Label ID="lblUser" runat="server" Text=""></asp:Label>
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 <p>

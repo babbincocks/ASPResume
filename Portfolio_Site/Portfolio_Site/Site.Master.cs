@@ -11,7 +11,14 @@ namespace Portfolio_Site
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            btnLogin.Visible = (Session["LoginState"] == null);
 
+            if(Session["LoginState"] != null)
+            {
+                lblUser.Visible = true;
+                //TODO: Working here, put in text for lblUser.
+                lblUser.Text = "";
+            }
         }
     }
 }
