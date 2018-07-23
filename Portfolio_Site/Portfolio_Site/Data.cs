@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.IO;
+using System.Data;
+using System.Data.SqlClient;
+using System.Web.Configuration;
 
 namespace Portfolio_Site
 {
@@ -23,6 +26,8 @@ namespace Portfolio_Site
         {
             int result = 0;
 
+            //TODO: Connection string.
+            string connString = WebConfigurationManager.ConnectionStrings["Laptop"].ConnectionString;
 
 
 
