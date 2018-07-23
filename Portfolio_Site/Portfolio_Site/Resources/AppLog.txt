@@ -152,3 +152,7 @@
 7/19/2018 9:45:57 PM: User multiplied two numbers together.
 7/19/2018 9:45:59 PM: User divided one number by another.
 7/19/2018 9:46:00 PM: User subtracted one number from another.
+7/23/2018 12:32:25 AM: Application started.
+7/23/2018 12:32:26 AM: Session started. Current number of users: 1.
+7/23/2018 12:33:15 AM: Application started.
+7/23/2018 12:33:15 AM: Session started. Current number of users: 1.

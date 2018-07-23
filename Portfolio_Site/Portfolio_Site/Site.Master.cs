@@ -16,8 +16,7 @@ namespace Portfolio_Site
             if(Session["LoginState"] != null)
             {
                 lblUser.Visible = true;
-                //TODO: Working here, put in text for lblUser.
-                lblUser.Text = "";
+                lblUser.Text = "Welcome, " + Session["LoginState"] + ".";
             }
         }
     }

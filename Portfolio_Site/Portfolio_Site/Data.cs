@@ -18,5 +18,15 @@ namespace Portfolio_Site
             output.WriteLine(DateTime.Now.ToString() + ": " + message);
             output.Close();
         }
+
+        public static int CheckLogin(string name, string pass)
+        {
+            int result = 0;
+
+
+
+
+            return result;
+        }
     }
 }
