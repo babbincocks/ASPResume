@@ -11,6 +11,7 @@ namespace Portfolio_Site
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            
             if(!Page.IsPostBack)
             {
                 ViewState["LoggedIn"] = 0;
@@ -27,7 +28,30 @@ namespace Portfolio_Site
         {
             int result = -1;
             
+            if(ViewState["LoggedIn"].ToString() != "1")
+            {
+                result = Data.CheckLogin(txtUser.Text, txtPass.Text);
+
+                if(result == 1)
+                {
+                    ViewState["LoggedIn"] = result;
+                    Session["LoginState"] = txtUser.Text;
+                    Response.Redirect("Default.aspx");
+                }
+                else
+                {
+                    Response.Write("Login information was incorrect. Please try again.");
+                }
+            }
             
+        }
+
+        protected void btnRegister_Click(object sender, EventArgs e)
+        {
+            if (ViewState["LoggedIn"].ToString() != "1")
+            {
+
+            }
         }
     }
 }

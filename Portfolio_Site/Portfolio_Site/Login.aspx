@@ -9,12 +9,19 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            Username <asp:TextBox ID="txtUser" runat="server"></asp:TextBox>
+            Username <asp:TextBox ID="txtUser" runat="server" AutoCompleteType="Disabled"></asp:TextBox>
             <br />
             <br />
-            Password <asp:TextBox ID="txtPass" runat="server"></asp:TextBox>
+            Password <asp:TextBox ID="txtPass" TextMode="Password" runat="server" AutoCompleteType="Disabled"></asp:TextBox>
             <br />
-            <asp:Button ID="btnLogin" runat="server" Text="Login" OnClick="btnLogin_Click" />
+            <table>
+                <tr>
+                    <th><asp:Button ID="btnLogin" runat="server" Text="Login"  OnClick="btnLogin_Click" /></th>
+                    <th><asp:Button ID="btnRegister" runat="server" Text="Register" OnClick="btnRegister_Click" /></th>
+                </tr>
+
+            </table>
+            
         </div>
     </form>
 </body>

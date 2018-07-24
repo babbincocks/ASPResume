@@ -11,13 +11,26 @@ namespace Portfolio_Site
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            btnLogin.Visible = (Session["LoginState"] == null);
-
-            if(Session["LoginState"] != null)
+            try
             {
-                lblUser.Visible = true;
-                lblUser.Text = "Welcome, " + Session["LoginState"] + ".";
+                btnLogin.Visible = (Session["LoginState"] == null);
+
+                if (Session["LoginState"] != null)
+                {
+                    lblUser.Visible = true;
+                    lblUser.Text = "Welcome, " + Session["LoginState"] + ".";
+                }
             }
+            catch(Exception ex)
+            {
+                Response.Write(ex.Message);
+            }
+        }
+
+        protected void btnLogin_Click(object sender, EventArgs e)
+        {
+            Session["PrevPage"] = Page.Application;
+            Response.Redirect("Login.aspx");
         }
     }
 }

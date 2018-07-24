@@ -64,7 +64,7 @@ namespace Portfolio_Site
         protected void Application_Error(object sender, EventArgs e)
         {
             Exception except = Server.GetLastError();
-
+            
             if(except.GetType() == typeof(HttpException))
             {
                 if(except.Message.Contains("NoCatch") || except.Message.Contains("maxUrlLength"))
@@ -76,7 +76,7 @@ namespace Portfolio_Site
             }
 
             Response.Write("<h2>Global Page Error</h2>\n");
-            Response.Write("<p>" + except.Message + "</p>\n");
+            Response.Write("<p>" + except.InnerException.Message + "</p>\n");
             Response.Write("Do you know what that means? It means you hecked up. Now return to the <a href='Default.aspx'>" + "Default Page</a>\n");
 
             Data.WriteToLog("Unhandled exception occurred. Exception Message: " + except.Message + ".");

@@ -7,6 +7,14 @@ C:\Users\Cyberadmin\Desktop\Portfolio_Site\Portfolio_Site\obj\Debug\Portfolio_Si
 C:\Users\Cyberadmin\Desktop\Portfolio_Site\Portfolio_Site\obj\Debug\Portfolio_Site.csproj.CoreCompileInputs.cache
 C:\Users\Cyberadmin\Desktop\Portfolio_Site\Portfolio_Site\obj\Debug\Portfolio_Site.dll
 C:\Users\Cyberadmin\Desktop\Portfolio_Site\Portfolio_Site\obj\Debug\Portfolio_Site.pdb
+C:\Users\MTCStudent\Desktop\ASPResume\Portfolio_Site\Portfolio_Site\bin\Portfolio_Site.dll.config
+C:\Users\MTCStudent\Desktop\ASPResume\Portfolio_Site\Portfolio_Site\bin\Portfolio_Site.dll
+C:\Users\MTCStudent\Desktop\ASPResume\Portfolio_Site\Portfolio_Site\bin\Portfolio_Site.pdb
+C:\Users\MTCStudent\Desktop\ASPResume\Portfolio_Site\Portfolio_Site\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\MTCStudent\Desktop\ASPResume\Portfolio_Site\Portfolio_Site\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\MTCStudent\Desktop\ASPResume\Portfolio_Site\Portfolio_Site\obj\Debug\Portfolio_Site.csprojResolveAssemblyReference.cache
+C:\Users\MTCStudent\Desktop\ASPResume\Portfolio_Site\Portfolio_Site\obj\Debug\Portfolio_Site.dll
+C:\Users\MTCStudent\Desktop\ASPResume\Portfolio_Site\Portfolio_Site\obj\Debug\Portfolio_Site.pdb
 C:\Users\Cyberadmin\Desktop\ASPResume\Portfolio_Site\Portfolio_Site\bin\Portfolio_Site.dll.config
 C:\Users\Cyberadmin\Desktop\ASPResume\Portfolio_Site\Portfolio_Site\bin\Portfolio_Site.dll
 C:\Users\Cyberadmin\Desktop\ASPResume\Portfolio_Site\Portfolio_Site\bin\Portfolio_Site.pdb
@@ -17,11 +25,3 @@ C:\Users\Cyberadmin\Desktop\ASPResume\Portfolio_Site\Portfolio_Site\obj\Debug\Po
 C:\Users\Cyberadmin\Desktop\ASPResume\Portfolio_Site\Portfolio_Site\obj\Debug\Portfolio_Site.csproj.CopyComplete
 C:\Users\Cyberadmin\Desktop\ASPResume\Portfolio_Site\Portfolio_Site\obj\Debug\Portfolio_Site.dll
 C:\Users\Cyberadmin\Desktop\ASPResume\Portfolio_Site\Portfolio_Site\obj\Debug\Portfolio_Site.pdb
-C:\Users\MTCStudent\Desktop\ASPResume\Portfolio_Site\Portfolio_Site\bin\Portfolio_Site.dll.config
-C:\Users\MTCStudent\Desktop\ASPResume\Portfolio_Site\Portfolio_Site\bin\Portfolio_Site.dll
-C:\Users\MTCStudent\Desktop\ASPResume\Portfolio_Site\Portfolio_Site\bin\Portfolio_Site.pdb
-C:\Users\MTCStudent\Desktop\ASPResume\Portfolio_Site\Portfolio_Site\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\MTCStudent\Desktop\ASPResume\Portfolio_Site\Portfolio_Site\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\MTCStudent\Desktop\ASPResume\Portfolio_Site\Portfolio_Site\obj\Debug\Portfolio_Site.csprojResolveAssemblyReference.cache
-C:\Users\MTCStudent\Desktop\ASPResume\Portfolio_Site\Portfolio_Site\obj\Debug\Portfolio_Site.dll
-C:\Users\MTCStudent\Desktop\ASPResume\Portfolio_Site\Portfolio_Site\obj\Debug\Portfolio_Site.pdb
