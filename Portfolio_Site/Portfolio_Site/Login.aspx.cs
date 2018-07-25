@@ -19,8 +19,16 @@ namespace Portfolio_Site
 
             if (ViewState["LoggedIn"].ToString() == "1")
             {
+
                 btnLogin.Enabled = false;
                 Response.Write("There is no need to log yourself in again.");
+            }
+            if (Request.UrlReferrer.ToString() != null)
+            {
+                if (Request.UrlReferrer.LocalPath.Contains("Register"))
+                {
+                    Response.Write("New user created. Now login with your new credentials.");
+                }
             }
         }
 
@@ -48,10 +56,15 @@ namespace Portfolio_Site
 
         protected void btnRegister_Click(object sender, EventArgs e)
         {
-            if (ViewState["LoggedIn"].ToString() != "1")
+            if(ViewState["LoggedIn"].ToString() != "1")
             {
-
+                Response.Redirect("Register.aspx");
             }
+            else
+            {
+                Response.Write("Logout before registering a new user.");
+            }
+            
         }
     }
 }

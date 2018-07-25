@@ -14,11 +14,17 @@ namespace Portfolio_Site
             try
             {
                 btnLogin.Visible = (Session["LoginState"] == null);
-
+                btnLogout.Visible = (Session["LoginState"] != null);
+                
                 if (Session["LoginState"] != null)
                 {
                     lblUser.Visible = true;
                     lblUser.Text = "Welcome, " + Session["LoginState"] + ".";
+                    
+                }
+                else
+                {
+                    lblUser.Visible = false;
                 }
             }
             catch(Exception ex)
@@ -29,8 +35,13 @@ namespace Portfolio_Site
 
         protected void btnLogin_Click(object sender, EventArgs e)
         {
-            Session["PrevPage"] = Page.Application;
             Response.Redirect("Login.aspx");
+        }
+
+        protected void btnLogout_Click(object sender, EventArgs e)
+        {
+            Session.Clear();
+            Response.Redirect(Request.Url.ToString());
         }
     }
 }

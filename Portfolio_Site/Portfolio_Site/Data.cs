@@ -32,21 +32,24 @@ namespace Portfolio_Site
 
             string encrypt = Encrypt(pass);
 
-            SqlConnection sqlConn = new SqlConnection(connString);
-
-            SqlDataAdapter sqlAdapt = new SqlDataAdapter("dbo.sp_AllUsers", sqlConn);
-
-            DataTable dtUsers = new DataTable();
-
-            sqlAdapt.Fill(dtUsers);
-
-            DataRow[] match = dtUsers.Select("Username = '" + name + "'");
-
-            if(match.Length != 0)
+            using (SqlConnection sqlConn = new SqlConnection(connString))
             {
-                if(match[0].ItemArray[1].ToString() == encrypt)
+
+                SqlDataAdapter sqlAdapt = new SqlDataAdapter("dbo.sp_AllUsers", sqlConn);
+
+                DataTable dtUsers = new DataTable();
+
+                sqlAdapt.Fill(dtUsers);
+
+                DataRow[] match = dtUsers.Select("Username = '" + name + "'");
+
+                if (match.Length != 0)
                 {
-                    result = 1;
+                    if (match[0].ItemArray[1].ToString() == encrypt)
+                    {
+                        result = 1;
+                    }
+
                 }
                 else
                 {
@@ -72,6 +75,27 @@ namespace Portfolio_Site
             }
 
                 return encrypted;
+        }
+
+        public static void RegisterUser(string name, string pass)
+        {
+            string connString = WebConfigurationManager.ConnectionStrings["Desktop Door"].ConnectionString;
+
+            string encrypt = Encrypt(pass);
+
+            using (SqlConnection sqlConn = new SqlConnection(connString))
+            {
+                string insertQuery = "INSERT INTO Users (Username, Pass) VALUES (@UsersName, @Passwordchoice)";
+
+                SqlCommand insertComm = new SqlCommand(insertQuery, sqlConn);
+                insertComm.Parameters.AddWithValue("@UsersName", name);
+                insertComm.Parameters.AddWithValue("@Passwordchoice", encrypt);
+                insertComm.Connection.Open();
+
+                insertComm.ExecuteNonQuery();
+            }
+
+
         }
     }
 }

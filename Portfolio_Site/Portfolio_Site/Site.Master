@@ -23,8 +23,9 @@
             <asp:LinkButton ID="btnLogin" runat="server" OnClick="btnLogin_Click">Login</asp:LinkButton>
         
         &nbsp;<asp:Label ID="lblUser" runat="server" Text=""></asp:Label>
-        
-        <div>
+        <br />
+            <asp:LinkButton ID="btnLogout" runat="server" OnClick="btnLogout_Click">Logout</asp:LinkButton>
+            <div>
             <br />
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 <p>
