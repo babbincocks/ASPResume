@@ -8,6 +8,7 @@
         <tr>
             <th><a href="Default.aspx">Resume</a></th>
             <th>Summary</th>
+            <th><a href="Calculator.aspx">Calculator</a></th>
         </tr>
         
     </table>

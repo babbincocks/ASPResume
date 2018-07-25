@@ -7,6 +7,7 @@
         <tr>
             <th>Resume</th>
             <th><a href="Summary.aspx">Summary</a></th>
+            <th><a href="Calculator.aspx">Calculator</a></th>
         </tr>
         
     </table>

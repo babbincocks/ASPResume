@@ -3,6 +3,16 @@
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
+    <table>
+        <tr>
+            <th><a href="Default.aspx">Resume</a></th>
+            <th><a href="Summary.aspx">Summary</a></th>
+            <th>Calculator</th>
+        </tr>
+        
+    </table>
+
     <asp:Panel ID="pnlCalc"  runat="server" Height="290px" Width="200px" BorderWidth="3px" BorderStyle="Solid" BorderColor="#DDEEFF" BackColor="#6666FF" OnPreRender="pnlCalc_PreRender" CssClass="leftpush">
              <br />
                 <p>Result</p>

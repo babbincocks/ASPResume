@@ -19,16 +19,19 @@ h4 {
 
 table, th, td {
     border: 1px solid #322f4f;
-    width: 50%;
+    width: 66%;
     align-content: center;
 }
+
+
 
 li{
     margin: 10px;
 }
 
 th, td {
-    padding: 5px
+    padding: 5px;
+    width: 22%;
 }
 
 #grad {
