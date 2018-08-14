@@ -57,7 +57,7 @@ tactics for most operating systems, though most proficient with Windows. </p>
 <li>Able to handle multiple tasks at once successfully.</li>
 </ul>
 
-
+    
 
 </asp:Content>
 

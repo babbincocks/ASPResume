@@ -35,7 +35,7 @@ namespace Portfolio_Site
 
         protected void btnLogin_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Login.aspx");
+            Response.Redirect("LoginPage.aspx");
         }
 
         protected void btnLogout_Click(object sender, EventArgs e)

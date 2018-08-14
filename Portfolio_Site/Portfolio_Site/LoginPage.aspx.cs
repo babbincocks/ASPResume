@@ -7,12 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace Portfolio_Site
 {
-    public partial class Login : System.Web.UI.Page
+    public partial class LoginPage : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
-            if(!Page.IsPostBack)
+            if (!Page.IsPostBack)
             {
                 ViewState["LoggedIn"] = 0;
             }
@@ -35,12 +34,12 @@ namespace Portfolio_Site
         protected void btnLogin_Click(object sender, EventArgs e)
         {
             int result = -1;
-            
-            if(ViewState["LoggedIn"].ToString() != "1")
+
+            if (ViewState["LoggedIn"].ToString() != "1")
             {
                 result = Data.CheckLogin(txtUser.Text, txtPass.Text);
 
-                if(result == 1)
+                if (result == 1)
                 {
                     ViewState["LoggedIn"] = result;
                     Session["LoginState"] = txtUser.Text;
@@ -51,12 +50,11 @@ namespace Portfolio_Site
                     Response.Write("Login information was incorrect. Please try again.");
                 }
             }
-            
         }
 
         protected void btnRegister_Click(object sender, EventArgs e)
         {
-            if(ViewState["LoggedIn"].ToString() != "1")
+            if (ViewState["LoggedIn"].ToString() != "1")
             {
                 Response.Redirect("Registration.aspx");
             }
@@ -64,7 +62,6 @@ namespace Portfolio_Site
             {
                 Response.Write("Logout before registering a new user.");
             }
-            
         }
     }
 }
