@@ -15,7 +15,7 @@
     <RootNamespace>Portfolio_Site</RootNamespace>
     <AssemblyName>Portfolio_Site</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
-    <UseIISExpress>true</UseIISExpress>
+    <UseIISExpress>false</UseIISExpress>
     <Use64BitIISExpress />
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
@@ -68,7 +68,6 @@
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Calculator.aspx" />
-    <Content Include="Login.aspx" />
     <Content Include="LoginPage.aspx" />
     <Content Include="Register.aspx" />
     <Content Include="Registration.aspx" />
@@ -87,7 +86,9 @@
     <Content Include="main.css" />
     <Content Include="Sandbox.aspx" />
     <Content Include="Summary.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Calculator.aspx.cs">
@@ -107,13 +108,6 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
-    <Compile Include="Login.aspx.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Login.aspx.designer.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="LoginPage.aspx.cs">
       <DependentUpon>LoginPage.aspx</DependentUpon>
@@ -179,7 +173,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>0</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:49324/</IISUrl>
+          <IISUrl>http://localhost/Portfolio_Site</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

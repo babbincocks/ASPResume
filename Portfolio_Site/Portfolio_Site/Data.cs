@@ -15,7 +15,7 @@ namespace Portfolio_Site
     {
         public static void WriteToLog(string message)
         {
-            if(!File.Exists(HttpRuntime.AppDomainAppPath + "\\Resources\\AppLog.txt"))
+            if (!File.Exists(HttpRuntime.AppDomainAppPath + "\\Resources\\AppLog.txt"))
             {
                 File.Create(HttpRuntime.AppDomainAppPath + "\\Resources\\AppLog.txt");
             }

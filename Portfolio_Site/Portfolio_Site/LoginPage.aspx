@@ -10,7 +10,7 @@
             <br />
             <table>
                 <tr>
-                    <th><asp:Button ID="btnLogin" runat="server" Text="Login"  OnClick="btnLogin_Click" style="height: 26px" /></th>
+                    <th><asp:Button ID="btnLogin" runat="server" Text="Login" OnClientClick="return validLogin();"  OnClick="btnLogin_Click" style="height: 26px" /></th>
                     <th><asp:Button ID="btnRegister" runat="server" Text="Register" OnClick="btnRegister_Click" /></th>
                 </tr>
 
@@ -19,6 +19,22 @@
         </div>
 
     <script>
+        function validLogin() {
+            let user = document.getElementById('<%= txtUser.ClientID %>').value;
+            let pass = document.getElementById('<%= txtPass.ClientID %>').value;
 
+            let result = true;
+
+            if (!user) {
+                Response.Write("You need to put in a username.");
+                result = false;
+            }
+            else if (!pass) {
+                Response.Write("You need to put in a password.");
+                result = false;
+            }
+
+            return result;
+        }
     </script>
 </asp:Content>

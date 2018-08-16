@@ -265,3 +265,19 @@
 8/13/2018 7:38:09 PM: Session started. Current number of users: 1.
 8/13/2018 9:24:36 PM: Application started.
 8/13/2018 9:24:36 PM: Session started. Current number of users: 1.
+8/15/2018 5:31:24 PM: Application started.
+8/15/2018 5:31:26 PM: Session started. Current number of users: 1.
+8/15/2018 5:31:47 PM: Unhandled exception occurred. Exception Message: Exception of type 'System.Web.HttpUnhandledException' was thrown..
+8/15/2018 5:34:03 PM: Unhandled exception occurred. Exception Message: Exception of type 'System.Web.HttpUnhandledException' was thrown..
+8/15/2018 5:39:13 PM: Unhandled exception occurred. Exception Message: Exception of type 'System.Web.HttpUnhandledException' was thrown..
+8/15/2018 5:39:59 PM: Unhandled exception occurred. Exception Message: Exception of type 'System.Web.HttpUnhandledException' was thrown..
+8/15/2018 5:40:44 PM: Unhandled exception occurred. Exception Message: Exception of type 'System.Web.HttpUnhandledException' was thrown..
+8/15/2018 5:51:54 PM: Session started. Current number of users: 0.
+8/15/2018 5:51:54 PM: Application closed.
+8/15/2018 5:52:01 PM: Application started.
+8/15/2018 5:52:04 PM: Session started. Current number of users: 1.
+8/15/2018 5:52:14 PM: Unhandled exception occurred. Exception Message: Exception of type 'System.Web.HttpUnhandledException' was thrown..
+8/15/2018 6:01:20 PM: Unhandled exception occurred. Exception Message: Exception of type 'System.Web.HttpUnhandledException' was thrown..
+8/15/2018 6:03:21 PM: Unhandled exception occurred. Exception Message: Exception of type 'System.Web.HttpUnhandledException' was thrown..
+8/15/2018 6:43:44 PM: Session started. Current number of users: 0.
+8/15/2018 6:55:10 PM: Application closed.
