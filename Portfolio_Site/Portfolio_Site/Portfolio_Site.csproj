@@ -69,6 +69,7 @@
     <None Include="packages.config" />
     <Content Include="Calculator.aspx" />
     <Content Include="LoginPage.aspx" />
+    <Content Include="MainPortService.asmx" />
     <Content Include="Register.aspx" />
     <Content Include="Registration.aspx" />
     <Content Include="script.js" />
@@ -115,6 +116,10 @@
     </Compile>
     <Compile Include="LoginPage.aspx.designer.cs">
       <DependentUpon>LoginPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MainPortService.asmx.cs">
+      <DependentUpon>MainPortService.asmx</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Register.aspx.cs">
