@@ -26,16 +26,25 @@ namespace Portfolio_Site
             for (int a = 0; a < 3; a++)
             {
 
-                int remainder = (int)(number % numBase);
-                decimal cutNumber = (int)(number / numBase);
-                List<char> newNumber = new List<char>();
+                int remainder = 0;
+                decimal cutNumber = number;
+                List<string> newNumber = new List<string>();
                 
-                while((int)cutNumber != 1)
+                while(cutNumber > 0)
                 {
-                    
-                    newNumber.Add((char)remainder);
-                    remainder = (int)(cutNumber % numBase);
-                    cutNumber = (int)(cutNumber / numBase);
+
+                    if (cutNumber != number)
+                    {
+                        remainder = (int)(cutNumber % numBase);
+                        cutNumber = (int)(cutNumber / numBase);
+                        newNumber.Add(remainder.ToString());
+                    }
+                    else
+                    {
+                        remainder = (int)(number % numBase);
+                        cutNumber = (int)(number / numBase);
+                        newNumber.Add(remainder.ToString());
+                    }
                 }
 
                 newNumber.Reverse();
@@ -43,14 +52,48 @@ namespace Portfolio_Site
                 if(a == 0)
                 {
                     numBase = 8m;
-                    //TODO: This method of adding the number isn't working. Also when adding digits in binary up above, it misses one digit; what should be the first digit.
-                    convertedNum.Add(string.Concat(newNumber.TakeWhile(char.IsDigit)));
+                    convertedNum.Add(string.Join("", newNumber.ToArray()));
+                    newNumber.Clear();
+                }
+                else if(numBase == 8m)
+                {
+                    numBase = 16m;
+                    convertedNum.Add(string.Join("", newNumber.ToArray()));
                     newNumber.Clear();
                 }
                 else
                 {
-                    numBase = 16m;
-                    convertedNum.Add(string.Concat(newNumber.TakeWhile(char.IsLetterOrDigit)));
+                    for(int i = 0; i < newNumber.Count; i++)
+                    {
+                        if (newNumber[i] == "10")
+                        {
+                            newNumber[i] = "A";
+                        }
+                        else if (newNumber[i] == "11")
+                        {
+                            newNumber[i] = "B";
+                        }
+                        else if (newNumber[i] == "12")
+                        {
+                            newNumber[i] = "C";
+                        }
+                        else if (newNumber[i] == "13")
+                        {
+                            newNumber[i] = "D";
+                        }
+                        else if (newNumber[i] == "14")
+                        {
+                            newNumber[i] = "E";
+                        }
+                        else if (newNumber[i] == "15")
+                        {
+                            newNumber[i] = "F";
+                        }
+                    }
+                        
+
+                    
+                    convertedNum.Add(string.Join("", newNumber.ToArray()));
                     newNumber.Clear();
                 }
             }
